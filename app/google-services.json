@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "761719977738",
+    "project_id": "do1-aa481",
+    "storage_bucket": "do1-aa481.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761719977738:android:9f690d27fd8618af336cf3",
+        "android_client_info": {
+          "package_name": "com.example.a2do"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUz-KqhC36GIwaEjAzuq9CqgG6Qbvg7aA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daily Schedule Optimizer"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/total_work_hours_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Total Available Work Hours"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/urgent_tasks_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number of Urgent Tasks"
+            android:inputType="number"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/important_tasks_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number of Important Tasks"
+            android:inputType="number"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/calculate_schedule_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate Schedule"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/save_schedule_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Schedule"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/schedule_result_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+</ScrollView>
